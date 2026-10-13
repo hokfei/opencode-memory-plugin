@@ -1,0 +1,31 @@
+{
+  "name": "opencode-memory-plugin",
+  "version": "0.1.0",
+  "description": "Persistent global and per-project memory for OpenCode v2",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokfei/opencode-memory-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/hokfei/opencode-memory-plugin/issues"
+  },
+  "homepage": "https://github.com/hokfei/opencode-memory-plugin#readme",
+  "dependencies": {
+    "@opencode/plugin": "^2.0.28"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
